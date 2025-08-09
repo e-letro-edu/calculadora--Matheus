@@ -51,7 +51,7 @@ while True:
                 case 'P':
                     res= n1**n2
 
-    except ValueError:
+    #except ValueError:
         print("você digitou um valor inválido ")
     except ZeroDivisionError:
         print('Divisão por 0 não é permitida :p ')
